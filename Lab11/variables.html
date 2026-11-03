@@ -1,0 +1,32 @@
+<!--
+  Name    : Nishant
+  Roll No : 2410303310
+  Assignment 11: Units and CSS Variables
+  File    : Lab11/variables.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CSS Variables</title>
+<style>
+  :root {
+    --main-color: #1d3557;
+    --accent-color: #e63946;
+    --page-padding: 20px;
+  }
+  body {
+    color: var(--main-color);
+    padding: var(--page-padding);
+  }
+  h1 {
+    color: var(--accent-color);
+  }
+</style>
+</head>
+<body>
+<h1>CSS Variables</h1>
+<p>This text uses the main colour. The heading uses the accent colour.</p>
+</body>
+</html>

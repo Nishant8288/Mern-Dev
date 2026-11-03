@@ -1,0 +1,35 @@
+Name: Nishant | Roll No: 2410303310 | Assignment 2: Pushing and Cloning a Repository
+
+=== Task 1: bare repository and remote ===
+$ git init --bare ../html-remote
+Initialized empty Git repository in /home/claude/work/gitdemo/html-remote/
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+$ git remote add origin ../html-remote
+$ git remote -v
+origin	../html-remote (fetch)
+origin	../html-remote (push)
+
+=== Task 2: push (master) ===
+$ git status
+On branch master
+nothing to commit, working tree clean
+$ git push origin master
+To ../html-remote
+ * [new branch]      master -> master
+
+=== Task 3: clone and log ===
+$ git clone html-remote html-copy
+Cloning into 'html-copy'...
+done.
+$ git log --oneline
+82ba811 Add next meeting heading
+9c3a6bf Add home page

@@ -1,0 +1,28 @@
+/*
+  Name    : Nishant
+  Roll No : 2410303310
+  Assignment 12: Box Model, Cards and Scrolling
+  File    : Lab12/style.css
+*/
+
+body.lab-index{font-family:system-ui,Arial,sans-serif;margin:0;background:#f4f6fa;color:#1d3557}
+.lab-index header{background:#1d3557;color:#fff;padding:20px 32px}
+.lab-index header h1{margin:0 0 4px;font-size:1.6rem;color:#fff;text-decoration:none;font-style:normal}
+.lab-index .meta{margin:0;opacity:.85;font-size:1rem;color:#fff}
+.lab-index main{max-width:1000px;margin:24px auto;padding:0 20px}
+.lab-index .aim{background:#e8eef9;border-left:4px solid #e63946;padding:12px 16px;border-radius:4px;font-size:1rem;color:#1d3557}
+.lab-index .task{background:#fff;border:1px solid #d7deea;border-radius:10px;padding:16px;margin:20px 0}
+.lab-index .task h2{margin:0 0 6px;font-size:1.15rem;color:#1d3557}
+.lab-index .task p{margin:0 0 10px;color:#44526b;font-size:1rem;font-style:normal;text-decoration:none}
+.lab-index .task a{color:#e63946;font-weight:600}
+.lab-index iframe{width:100%;border:1px solid #d7deea;border-radius:6px;background:#fff}
+.lab-index pre{background:#0f1b2d;color:#e6edf7;padding:14px;border-radius:6px;overflow-x:auto;font-size:.85rem;margin:0}
+.lab-index footer{text-align:center;color:#6b7a93;padding:20px;font-size:.9rem}
+
+body.t-box-model,body.t-card,body.t-scroll{font-family:Arial,sans-serif;padding:16px}
+.t-box-model .box{width:200px;padding:20px;border:5px solid #1d3557;background-color:#a8dadc;margin-bottom:16px}
+.t-box-model .content-box{box-sizing:content-box}
+.t-box-model .border-box{box-sizing:border-box}
+.t-card .card{background-color:#f1faee;border:2px solid #1d3557;border-radius:12px;padding:16px;max-width:300px}
+.t-card .card h3{margin-top:0}
+.t-scroll .scroll-box{height:120px;width:260px;overflow:auto;border:2px solid #1d3557;padding:0 12px}

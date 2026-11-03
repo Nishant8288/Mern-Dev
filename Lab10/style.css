@@ -1,0 +1,23 @@
+/*
+  Name    : Nishant
+  Roll No : 2410303310
+  Assignment 10: CSS Fundamentals
+  File    : Lab10/style.css
+*/
+
+h1 {
+  color: navy;
+}
+
+.note {
+  font-style: italic;
+}
+
+#title {
+  text-decoration: underline;
+}
+
+p {
+  font-size: 18px;
+  color: grey;
+}

@@ -1,0 +1,23 @@
+/*
+  Name    : Nishant
+  Roll No : 2410303310
+  Assignment 11: Units and CSS Variables
+  File    : Lab11/tokens.css
+*/
+
+:root {
+  --primary-color: #1d3557;
+  --accent-color: #e63946;
+  --heading-size: 2rem;
+  --spacing: 16px;
+}
+
+body {
+  color: var(--primary-color);
+  padding: var(--spacing);
+}
+
+h1 {
+  color: var(--accent-color);
+  font-size: var(--heading-size);
+}

@@ -1,0 +1,59 @@
+<!--
+  Name    : Nishant
+  Roll No : 2410303310
+  Assignment 2: Pushing and Cloning a Repository
+  File    : Lab2/index.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lab 2 - Pushing and Cloning a Repository</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="lab-index">
+<header>
+<h1>Assignment 2: Pushing and Cloning a Repository</h1>
+<p class="meta">Nishant | Roll No: 2410303310 | HTML &amp; CSS Development Lab (BCS554)</p>
+</header>
+<main>
+<p class="aim"><strong>Aim:</strong> Send your commits to a second repository on your computer and make a copy of it with clone.</p>
+<section class="task"><h2>Task 1: Bare repository and remote</h2>
+<pre>$ git init --bare ../html-remote
+Initialized empty Git repository in /home/claude/work/gitdemo/html-remote/
+hint: Using &#x27;master&#x27; as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch &lt;name&gt;
+hint: 
+hint: Names commonly chosen instead of &#x27;master&#x27; are &#x27;main&#x27;, &#x27;trunk&#x27; and
+hint: &#x27;development&#x27;. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m &lt;name&gt;
+$ git remote add origin ../html-remote
+$ git remote -v
+origin	../html-remote (fetch)
+origin	../html-remote (push)</pre>
+</section>
+<section class="task"><h2>Task 2: Push to origin (branch: master)</h2>
+<pre>$ git status
+On branch master
+nothing to commit, working tree clean
+$ git push origin master
+To ../html-remote
+ * [new branch]      master -&gt; master</pre>
+</section>
+<section class="task"><h2>Task 3: Clone into html-copy</h2>
+<pre>$ git clone html-remote html-copy
+Cloning into &#x27;html-copy&#x27;...
+done.
+$ git log --oneline
+82ba811 Add next meeting heading
+9c3a6bf Add home page</pre>
+</section>
+</main>
+<footer>Invertis University, Bareilly | B.Tech CSE Third Year</footer>
+</body>
+</html>
